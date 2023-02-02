@@ -1,0 +1,84 @@
+html, body {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+
+    
+}
+body {
+    background-image: url('https://st2.depositphotos.com/1076754/5300/v/450/depositphotos_53008063-stock-illustration-rows-of-red-cinema-or.jpg');     background-size: 100% 100%;
+     background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+.wel
+{
+    position: fixed;
+    top: 6%;
+    left: 37%;
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    font-family: cursive;
+}
+.team_name{
+    width: 400px;
+    font-family: fantasy;
+    font-weight: 100%;
+    font-size: 70px;color: black;
+    margin-left: 9%;
+    margin-top: 2%;
+    border: none;
+  
+}
+.fset1{
+    text-align: center;
+    margin-top: 3%;
+     width: 20%; 
+     margin-left: 39%;
+     border-radius: 10px;
+     
+}
+.div
+{
+    position: fixed;
+    top: 23%;
+    left: 30%; 
+}
+.divi
+{ 
+    position: fixed;
+    top: 6%;
+    left: 30%;    
+}
+.buttons
+{
+    position: fixed;
+    top: 67%;
+    left: 42%;
+    transition: 0.5s;
+}
+.but
+{
+    position: fixed;
+    top: 72%;
+    left: 45%;
+}
+.fset2{
+    color: black;
+    font-weight: bold;
+    width: 20%; 
+    margin-left: 39%;
+    text-align: center;
+    border-radius: 10px;
+    border-color: black;
+}
+input[type=button]:hover{
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+input[type=radio]:hover{
+    cursor: pointer;
+}

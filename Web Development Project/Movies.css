@@ -1,0 +1,120 @@
+*
+{
+    box-sizing: border-box;
+}
+
+header
+{
+    position: absolute;
+    padding: 40px 100px;  
+    z-index: 1000;
+    font-weight: 800;
+    color: white;
+    font-size: 50;
+    text-decoration: none;
+   
+}
+h4
+{
+    color: white;
+    letter-spacing: 0.1em;
+    word-spacing: 0.2em;
+    font-weight: 200;
+    font-size: 2.0em;
+}
+ .poster{
+    position: fixed;
+    float: right;
+    right: 0;
+    height: 90%;
+}
+p{
+    color: white;
+    letter-spacing: 0.02em;
+    word-spacing: 0.09;
+    width: 100%;
+    font-size: 1.2em;
+}
+.Doc
+{
+    position: relative;
+    padding: 0 100px;
+    min-height: 100vh;
+    background-size: cover;
+    width: 50%;
+    align-items: center;
+    display: flex;
+}
+.Play 
+{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: 0.5s;
+    
+}
+.Play:hover
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.Play:hover img
+{
+    width: 75px;
+}
+.Play img{
+    position: relative;
+    transition: 0.5s;
+    margin-right: 10px;
+    width: 50px;
+}
+.trailer.active
+{
+    visibility: visible;
+}
+.trailer
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:black;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+}
+.trailer video
+{
+    max-width: 1300px;
+}
+.trailer .close
+{
+    position: absolute;
+    top: 30px;
+    right: 80px;
+    cursor: pointer;
+   filter: invert(100%);
+    width: 32px;
+}
+.restored{
+    visibility: visible;
+    background: url(BackG.jpg);
+}
+.removed p{
+    position: fixed;
+    width: 55%;
+    font-size: 50;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color: black;
+    background-color: white;
+    visibility: hidden;
+}

@@ -1,0 +1,64 @@
+header {
+    height: 7.5%;
+    width: 99.5%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+#menu.pause{
+    visibility: hidden;
+    position: absolute;
+}
+header img{
+    position: fixed;
+    bottom: 95%;
+    left: 95%;
+    max-width: 70px;
+    cursor: pointer;
+    
+}
+nav.active
+{
+    position: relative;
+    visibility: visible;
+    opacity: 1;
+}
+.div:hover{
+    color: white;
+    background-color: black;
+}
+  nav{
+      position: fixed;
+      bottom: 95%;
+      left: 94%;
+      width: 60px;
+      height: 50px;
+      font-size: 15px;
+      font-family: georgia;
+      text-align: center;
+      margin-right: 50px;
+      visibility: hidden;
+     
+  }
+  .div{
+    border-radius: 10px;
+    background-color: white;
+      width: 90px;
+      border: solid 1px;
+      float: left;
+      padding: 5px 0;
+  }
+ header h1{
+    font-family: fantasy;
+     position: fixed;
+     top: 2px;
+     left: 45%;
+     transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    background: black;
+   max-width: 500px;
+    font-size: 60px;
+    font-weight: 300;
+}

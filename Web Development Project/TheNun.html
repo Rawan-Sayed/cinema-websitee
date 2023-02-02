@@ -1,0 +1,48 @@
+<html>
+    <title>The Nun</title>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="Movies.css">
+</head>
+<body>
+    <div class="restored">
+    <header>
+        The Nun
+    </header>
+        <img class="poster" src="The-Nun.jpg">
+        <div class="Doc">
+            <div class="Description">
+                <h4>Standard</h4>
+                <p>
+                    10:45 am &emsp;   60 EGP <br><br>
+                    01:15 pm &emsp;   60 EGP <br><br>
+                    04:00 pm &emsp;   90 EGP <br><br>
+                    07:00 pm &emsp;   90 EGP <br><br>
+                    10:00 pm &emsp;   90 EGP <br><br>
+
+                </p>
+                <a href="#" class="Play" onclick="toggle();"><img src="play.png">Watch Trailer</a>
+            </div>
+        </div>
+        
+        <div class="trailer">
+            <video src="THE NUN - Official Teaser Trailer [HD].mp4" controls="true"></video>
+            <img src="close.png" class="close" onclick="toggle();">
+        </div>
+    </div>
+    <div class="removed">
+        <p>This page has been removed by the admin</p>
+    </div>
+    <script type="text/javascript">
+        function toggle() {
+            var trailer = document.querySelector('.trailer');
+            trailer.classList.toggle('active');
+            var video = document.querySelector('video');
+            video.currentTime = 0;
+            video.pause();
+        }
+    </script>
+    <script type="text/javascript" src="Undisputed_4.js"></script>
+</body>
+
+</html>

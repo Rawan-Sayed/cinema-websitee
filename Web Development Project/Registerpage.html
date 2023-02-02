@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Registeration page
+    </title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+
+<body>
+    <h1 class="team_name">ERROR 404</h1>
+    <div class="divi">
+        <fieldset style="margin-top: 2%;" class="fset2" name="field2">
+            <legend style="color: black;">
+                <strong>REGISTER</strong>
+            </legend>
+            <form style="color: black; font-size: 14.5px;">
+                First Name:<br>
+                <input style="height: 25px; width: 250px;" type="text" id="firstname" /><br>
+                Last name:<br>
+                <input style="height: 25px; width: 250px;" type="text" id="lastname" /><br>
+                Email:<br>
+                <input style="height: 25px; width: 250px;" type="text" id="newmail" /><br>
+                Password:<br>
+                <input style="height: 25px; width: 250px;" type="password" id="newpass" onclick="pass_info()" /><br>
+                Comfirm Password:<br>
+                <input style="height: 25px; width: 250px;" type="password" id="confirmpass" /><br>
+                Gender Type:<br>
+                <input type="radio" name="gender" id="male" onclick="checkradio2()" />
+                <label for="Male">Male</label>
+                <input type="radio" name="gender" id="female" onclick="checkradio1()" />
+                <label for="Female">Female</label><br>
+                Birthdate:<br>
+                <input style="height: 25px; width: 250px;" type="date" id="Birthdate" value="" /><br>
+                Phone Number:<br>
+                <input style="height: 25px; width: 250px;" type="text" id="phone" /><br><br>
+
+            </form>
+        </fieldset><br>
+        <input class="buttons"
+            style="width: 150px; height: 25px; color: black; background-color: gray; font-family: cursive;"
+            type="button" value="Submit" onclick="check_info()" /><br><br>
+        <button class="but" style="font-size: 100%; text-align: center;">
+            <a href="login.html">Back</a>
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

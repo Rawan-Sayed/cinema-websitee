@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Login Page
+    </title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+
+<body onload="takedata()">
+
+    <h1 class="team_name">ERROR 404</h1>
+    <h1 class="wel" style="text-align: center;">WELCOME</h1>
+    <div class="div">
+        <fieldset class="fset1">
+            <legend style="color: black;">
+                <strong>SIGN IN</strong>
+            </legend>
+            <form style="color: black; font-size: 17px;">
+                Email:<br>
+                <input style="height: 25px; width: 250px;" type="text" id="mail"
+                    placeholder="Enter e-mail..." /><br><br>
+                Password:<br>
+                <input style="height: 25px; width: 250px;" type="password" id="pw"
+                    placeholder="Enter password..." /><br><br>
+                <input style="width: 150px; height: 23px; color: black; background-color: gray; font-family: cursive;"
+                    type="button" value="LOG IN" onclick="check()" /><br>
+            </form>
+            <br>
+            <p style="color: black; font-family: cursive;">Don't have an account?</p>
+            <nav>
+                <button>
+                    <a href="Registerpage.html"> Register now </a>
+                </button>
+            </nav>
+        </fieldset>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

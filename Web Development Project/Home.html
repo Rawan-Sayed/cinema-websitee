@@ -1,0 +1,90 @@
+<html>
+
+<title>Home Page</title>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="Home.css">
+    <script type="text/javascript">
+        function toggle() {
+            var menu = document.querySelector('nav');
+            menu.classList.toggle('active');
+            var pic = document.querySelector('#menu');
+            pic.classList.toggle('pause');
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="head">
+        <header>
+            <h1>ERROR 404</h1>
+            <img id="menu" src="toggle.png" onclick="toggle()" alt="">
+            <nav>
+                <a href="Home.html">
+                    <div class="div">Home</div>
+                </a>
+                <a href="About_US.html">
+                    <div class="div">About Us</div>
+                </a>
+                <a href="Reservation.html">
+                    <div class="div">Reservation</div>
+                </a>
+                <a href="Leadership.html">
+                    <div class="div">Leader Ship</div>
+                </a>
+                <a href="Login.html">
+                    <div class="div">Log Out</div>
+                </a>
+
+            </nav>
+        </header>
+    </div>
+
+    <article class="art">
+
+        <p>
+            Hello <br>
+            How are you today? <br>
+            I hope you are fine. <br>
+            We are happy for you to use our website.
+            In this page you can see the posters of the avaliable films in this website.
+            <br>
+            If you want to watch trailers or to book tickets <a class = "Click" href="Joker.html">Click Here</a>
+        </p>
+    </article>
+
+    <div class="right">
+        <div class="slidershow middle">
+
+            <div class="slides">
+                <input type="radio" name="r" id="r1" checked="checked">
+                <input type="radio" name="r" id="r2">
+                <input type="radio" name="r" id="r3">
+
+                <div class="slide" id="s1">
+                    <img src="JO.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="THE.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="BOY.jpg" alt="">
+                </div>
+
+            </div>
+
+
+            <div class="navigation">
+                <label for="r1" class="bar"></label>
+                <label for="r2" class="bar"></label>
+                <label for="r3" class="bar"></label>
+
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="Home.js"></script>
+</body>
+
+</html>
